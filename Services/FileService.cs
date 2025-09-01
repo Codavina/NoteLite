@@ -7,7 +7,7 @@ namespace NoteLite.Services
     public class FileService:IFileService
     {
         public string CurrentFilePath { get; private set; } = string.Empty;
-
+   
         public bool OpenFile(RichTextBox textBox)
         {
             var ofd = new OpenFileDialog
