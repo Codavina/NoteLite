@@ -276,7 +276,9 @@
   <ItemGroup>
     <None Include="Resources\sticky-note.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\text-format.png" />
   </ItemGroup>
